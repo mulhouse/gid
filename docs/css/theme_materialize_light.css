@@ -83,6 +83,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    padding-top: 20px;
 }
 #player-container #player-audio {
     display: inline-block;
@@ -121,9 +122,6 @@ audio::-webkit-media-controls-panel {
 #audio-previous, #audio-next {
     margin-top: -48px;
     color: black;
-    height: 0;
-    line-height: 0;
-    padding: 0;
 }
 
 input[type=checkbox] {
