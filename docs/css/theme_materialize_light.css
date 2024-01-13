@@ -102,8 +102,8 @@
 
 /*****************************************/
 #current-audio-file {
-	color: black;
-	font-weight: bold;
+    color: black;
+    font-weight: bold;
     font-size: 1.5em;
 }
 
@@ -115,7 +115,7 @@ height:54px;
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #a6a6a6a6;
+  background-color: #a60000;
 }
 
 .playing 
@@ -127,6 +127,7 @@ audio::-webkit-media-controls-panel {
 #audio-previous, #audio-next {
     margin-top: -48px;
     color: black;
+    background-color:transparent;
 }
 
 input[type=checkbox] {
