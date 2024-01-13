@@ -114,10 +114,6 @@ padding-top: 0px;
 height:54px;
 }
 
-audio::-webkit-media-controls-panel {
-  background-color: #a60000;
-}
-
 .playing 
 {
   background-color: rgba(30,30,30,0.5);
