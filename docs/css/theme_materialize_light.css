@@ -83,7 +83,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding-top: 10px;
+    height: 108px;
 }
 #player-container #player-audio {
     display: inline-block;
