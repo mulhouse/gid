@@ -60,6 +60,9 @@
     display: inline-block;
 }
 
+.btn-flat i {
+    font-size:1.8rem;	
+}
 .cache-audio,
 .download-audio,
 .cache-folder,
