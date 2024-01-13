@@ -62,8 +62,8 @@
 
 .btn-flat i {
     font-size:1.8rem;
-    height: 42px;
-    line-height: 42px;
+    height: 24px;
+    line-height: 24px;
 }
 .cache-audio,
 .download-audio,
@@ -115,7 +115,7 @@ height:54px;
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: transparent;
+  background-color: #a6a6a6a6;
 }
 
 .playing 
