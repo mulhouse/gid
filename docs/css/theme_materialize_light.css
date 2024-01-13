@@ -61,7 +61,9 @@
 }
 
 .btn-flat i {
-    font-size:1.8rem;	
+    font-size:1.8rem;
+    height: 42px;
+    line-height: 42px;
 }
 .cache-audio,
 .download-audio,
@@ -81,7 +83,7 @@
 }
 
 #player-container {
-    background-color: #fffffff0 !important;
+    background-color: #ffffffa0 !important;
     position: fixed;
     bottom: 0;
     left: 0;
