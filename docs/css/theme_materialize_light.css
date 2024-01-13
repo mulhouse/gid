@@ -1,0 +1,165 @@
+.header {
+    height: 40px;
+}
+
+.main {
+    padding: 3em 0;
+}
+
+.main-title {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+}
+
+#audio-tree > ul > .audio-folder {
+    text-align: center;
+}
+
+.audio-folder .audio-folder-title {
+    font-size: 2.5em;
+    width: 75%;
+    margin: 0;
+    padding: 0.5em 0;
+    display: inline-block;
+}
+.audio-folder .cache-folder,
+.audio-folder .download-folder {
+    width: 10%;
+    padding: 0.5em 0.3em;
+    display: inline-block;
+}
+
+.audio-file {
+    background: transparent;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+.audio-file:hover {
+    background: #424242;
+}
+.audio-file.active {
+    background: #424242;
+}
+.audio-file.active .audio-src,
+.audio-file.active .cache-audio,
+.audio-file.active .download-audio {
+    color: #f5f5f5;
+}
+
+.audio-file .audio-src {
+    color: #c0c0c0;
+    width: 75%;
+    padding: 0.5em 0;
+    display: inline-block;
+}
+.audio-file .cache-audio,
+.audio-file .download-audio {
+    width: 10%;
+    padding: 0.5em 0.3em;
+    display: inline-block;
+}
+
+.cache-audio,
+.download-audio,
+.cache-folder,
+.download-folder {
+    color: #333;
+    text-align: center;
+    background: transparent;
+    transition: all 0.3s;
+}
+.cache-audio:hover,
+.download-audio:hover,
+.cache-folder:hover,
+.download-folder:hover {
+    color: #000000 !important;
+    background: #f5f5f5;
+}
+
+#player-container {
+    background-color: #fffffff0 !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#player-container #player-audio {
+    display: inline-block;
+}
+#player-container #player-actions .player-action {
+    display: inline-block;
+}
+#player-container #player-actions .player-action .btn-floating {
+    border: 1px solid #000;
+}
+
+/*****************************************/
+#current-audio-file {
+	color: black;
+	font-weight: bold;
+    font-size: 1.5em;
+}
+
+audio {
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+/*height:40px;*/
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: transparent;
+}
+
+.playing 
+{
+  background-color: rgba(30,30,30,0.5);
+  font-weight: bold;
+}
+
+#audio-previous, #audio-next {
+	margin-top: -48px;
+    color: black;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+  display: inline-block;
+  position:relative;
+}
+
+#audio-repeat + label:after {
+    font-family: 'Material Icons';
+    content: "\E041";
+    font-size:2em
+}
+
+#audio-repeat:checked + label:after {
+	font-family: 'Material Icons';
+    content: "\E9D7";
+    font-size:2em
+}
+
+#audio-random + label:after {
+    font-family: 'Material Icons';
+    content: "\E043";
+    font-size:2em
+}
+
+#audio-random:checked + label:after {
+	font-family: 'Material Icons';
+    content: "\E9E1";
+    font-size:2em
+}
+
+p, li.audio-folder {
+    color:#c0c0c0;
+}
+
+p > a {
+    color:white !important;
+}
